@@ -3,7 +3,7 @@ const app = express();
 const PORT = 2000;
 
 app.get("/", (req, res) => {
-  return res.json({ success: true, message: "Server is running22222" });
+  return res.json({ success: true, message: "Server is running" });
 });
 
 app.listen(PORT, () => {
